@@ -1,0 +1,225 @@
+{
+	"info": {
+		"_postman_id": "2e562134-a3ee-44a4-83d9-1940a81395cd",
+		"name": "Wikipedia Language",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "EN",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "3226ad08-d334-4c64-b6f2-1a8babb2946c",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "e0394d61-0798-417a-816c-890e9653514b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://en.wikipedia.org/wiki/Main_Page"
+			},
+			"response": []
+		},
+		{
+			"name": "JP",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "027325fb-8d6a-4d7f-a980-4ad762ecc501",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "bdb48fc1-87e0-4777-a31e-b3a8e66ecb80",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8"
+			},
+			"response": []
+		},
+		{
+			"name": "FR",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "027325fb-8d6a-4d7f-a980-4ad762ecc501",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "07e9ed3e-439e-4ee3-b4ae-af858db6263a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal"
+			},
+			"response": []
+		},
+		{
+			"name": "IT",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "027325fb-8d6a-4d7f-a980-4ad762ecc501",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "61d62250-3602-4cb9-8dd9-f98d81e894e5",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://it.wikipedia.org/wiki/Pagina_principale"
+			},
+			"response": []
+		},
+		{
+			"name": "FA",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "027325fb-8d6a-4d7f-a980-4ad762ecc501",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "a9055058-ea68-489c-a09b-61e88c72002e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://fa.wikipedia.org/wiki/%D8%B5%D9%81%D8%AD%D9%87%D9%94_%D8%A7%D8%B5%D9%84%DB%8C"
+			},
+			"response": []
+		},
+		{
+			"name": "RU",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "027325fb-8d6a-4d7f-a980-4ad762ecc501",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "58d7ddc4-9dca-4d7e-8c92-feb9725abffa",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0"
+			},
+			"response": []
+		},
+		{
+			"name": "ZH",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "027325fb-8d6a-4d7f-a980-4ad762ecc501",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "50d97ba4-c18d-4824-a498-3b48eb5ec13e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5"
+			},
+			"response": []
+		},
+		{
+			"name": "PL",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "027325fb-8d6a-4d7f-a980-4ad762ecc501",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "16f443dd-1bef-4579-aec6-ad49acfaf6fb",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna"
+			},
+			"response": []
+		}
+	]
+}
